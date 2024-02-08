@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carasoule {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+
+}
+
+img {
+  width: 1000px;
+  height: 1000px;
+  object-fit: contain;
+}
+
+.btn {
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+  margin: 1rem;
+  font-size: 16px;
+  background-color: beige;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  left: 655px;
+}
+
+.next {
+  left: 1200px;
+}
+
+.prev {
+  left: 250px;
+}
